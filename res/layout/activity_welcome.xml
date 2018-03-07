@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/welcome_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="106dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/welcome_validated_user"
+        tools:context=".WelcomeActivity" />
+
+    <ImageView
+        android:id="@+id/welcome_image_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/welcome_text_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
